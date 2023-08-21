@@ -1,0 +1,93 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.8
+    framework: huggingface
+    huggingface_version: 4.31.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1691553975.519108
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      3:
+      - 2
+      - 19
+      - 23
+      4: 3.10.12
+      5: 0.15.8
+      6: 4.31.0
+      8:
+      - 1
+      - 5
+    session_history: code/_session_history.ipynb
+stable_diffusion_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-base-1.0
+refiner_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-refiner-1.0
+offload_to_cpu:
+  desc: null
+  value: false
+compile_model:
+  desc: null
+  value: false
+prompt_1:
+  desc: null
+  value: a cat playing with a ball in the (forest)---------
+prompt_2:
+  desc: null
+  value: Realistic, highly detailed, cold and bright color grading, 8k.
+negative_prompt_1:
+  desc: null
+  value: low-quality
+negative_prompt_2:
+  desc: null
+  value: low-quality
+seed:
+  desc: null
+  value: 42
+use_ensemble_of_experts:
+  desc: null
+  value: false
+num_inference_steps:
+  desc: null
+  value: 100
+num_refinement_steps:
+  desc: null
+  value: 150
+high_noise_fraction:
+  desc: null
+  value: 0.8
+scheduler_kwargs:
+  desc: null
+  value:
+    beta_end: 0.012
+    beta_schedule: scaled_linear
+    beta_start: 0.00085
+    interpolation_type: linear
+    num_train_timesteps: 1000
+    prediction_type: epsilon
+    steps_offset: 1
+    timestep_spacing: leading
+    trained_betas: null
+    use_karras_sigmas: false
+prompt_credits:
+  desc: null
+  value: ''

@@ -1,0 +1,95 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.8
+    framework: huggingface
+    huggingface_version: 4.31.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1691666543.739196
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      3:
+      - 19
+      - 23
+      4: 3.10.12
+      5: 0.15.8
+      6: 4.31.0
+      8:
+      - 1
+      - 5
+stable_diffusion_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-base-1.0
+refiner_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-refiner-1.0
+offload_to_cpu:
+  desc: null
+  value: false
+compile_model:
+  desc: null
+  value: false
+prompt_1:
+  desc: null
+  value: Old man crossing a road. the road is filled with cars vehicles and traffic
+    and people. the old man has one stick in his hand. hairing aids in his ears
+prompt_2:
+  desc: null
+  value: stick in hand, old man, struggling, busy traffic background, realistic, 8k
+negative_prompt_1:
+  desc: null
+  value: static, painting, illustration, sd character, low quality, low resolution,
+    greyscale, monochrome, nose, cropped, lowres, jpeg artifacts, deformed iris, deformed
+    pupils, bad eyes, semi-realistic worst quality, bad lips, deformed mouth, deformed
+    face, deformed fingers, deformed toes standing still, posing
+negative_prompt_2:
+  desc: null
+  value: deformed hand, deformed fingers, deformed face
+seed:
+  desc: null
+  value: null
+use_ensemble_of_experts:
+  desc: null
+  value: false
+num_inference_steps:
+  desc: null
+  value: 100
+num_refinement_steps:
+  desc: null
+  value: 150
+high_noise_fraction:
+  desc: null
+  value: 0.8
+scheduler_kwargs:
+  desc: null
+  value:
+    beta_end: 0.012
+    beta_schedule: scaled_linear
+    beta_start: 0.00085
+    interpolation_type: linear
+    num_train_timesteps: 1000
+    prediction_type: epsilon
+    steps_offset: 1
+    timestep_spacing: leading
+    trained_betas: null
+    use_karras_sigmas: false
+prompt_credits:
+  desc: null
+  value: ''
