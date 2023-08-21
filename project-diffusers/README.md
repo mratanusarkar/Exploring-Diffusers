@@ -55,6 +55,7 @@ Here are some more additional inputs for the above mentioned steps:
 - Fine tuning LLMs: https://huggingface.co/docs/diffusers/training/lora
 - Fine tuning SD: https://wandb.ai/geekyrakshit/dreambooth-keras/reports/Fine-Tuning-Stable-Diffusion-Using-Dreambooth-in-Keras--VmlldzozNjMzMzQ4
 - DreamBooth NB: https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/SDXL_DreamBooth_LoRA_.ipynb
+- Fine tuning SDXL: https://colab.research.google.com/github/huggingface/notebooks/blob/main/diffusers/SDXL_DreamBooth_LoRA_.ipynb
 
 ## Distribute Runs across Hardwares or Interfaces
 - Distributed Inference: https://huggingface.co/docs/diffusers/training/distributed_inference
