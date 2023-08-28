@@ -1,0 +1,106 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.15.8
+    framework: huggingface
+    huggingface_version: 4.31.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1693221321.702135
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      - 83
+      3:
+      - 19
+      - 23
+      4: 3.10.12
+      5: 0.15.8
+      6: 4.31.0
+      8:
+      - 1
+      - 5
+stable_diffusion_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-base-1.0
+refiner_checkpoint:
+  desc: null
+  value: stabilityai/stable-diffusion-xl-refiner-1.0
+compile_model:
+  desc: null
+  value: false
+prompt_1:
+  desc: null
+  value: A phtoto of Indian moon lander landing on the moon, realistic, 8k
+prompt_2:
+  desc: null
+  value: chandrayaan
+negative_prompt_1:
+  desc: null
+  value: paiting, nature, static, sd character, low quality, low resolution, greyscale,
+    monochrome, nose, cropped, lowres, jpeg artifacts, deformed iris, deformed pupils,
+    bad eyes, semi-realistic worst quality, bad lips, deformed mouth, deformed face,
+    deformed fingers, standing still, posing
+negative_prompt_2:
+  desc: null
+  value: ''
+base_guidance_scale:
+  desc: null
+  value: 5.0
+seed:
+  desc: null
+  value: 0
+num_inference_steps:
+  desc: null
+  value: 100
+enable_cpu_offload_base:
+  desc: null
+  value: true
+enable_cpu_offload_refiner:
+  desc: null
+  value: true
+compile_base_model:
+  desc: null
+  value: false
+enable_refinement:
+  desc: null
+  value: false
+compile_refinement_model:
+  desc: null
+  value: false
+refiner_guidance_scale:
+  desc: null
+  value: 5.0
+num_refinement_steps:
+  desc: null
+  value: 150
+high_noise_fraction:
+  desc: null
+  value: 0.8
+scheduler_kwargs:
+  desc: null
+  value:
+    beta_end: 0.012
+    beta_schedule: scaled_linear
+    beta_start: 0.00085
+    interpolation_type: linear
+    num_train_timesteps: 1000
+    prediction_type: epsilon
+    steps_offset: 1
+    timestep_spacing: leading
+    trained_betas: null
+    use_karras_sigmas: false
