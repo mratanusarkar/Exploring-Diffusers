@@ -7,4 +7,4 @@ Exploring various Diffusion models from stability.ai, implementing and playing a
 
 # UI Interfaces
 1. Fooocus UI Interface:
-    - Launch fooocus on colab notebook: <a href="https://colab.research.google.com/github/mratanusarkar/Exploring-Diffusers/project-diffusers/ui-interfaces/fooocus/fooocus.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    - Launch fooocus on colab notebook: <a href="https://colab.research.google.com/github/mratanusarkar/Exploring-Diffusers/blob/main/project-diffusers/ui-interfaces/fooocus/fooocus.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
