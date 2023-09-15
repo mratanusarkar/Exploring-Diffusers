@@ -1,3 +1,7 @@
+# Diffusers Notebooks
+
+Below information is for SDXL context. 
+> **Note**: Related code files moved to `project-diffusers\diffusers-ipynbs\sdxl`
 # Setup
 
 For local setup with offline GPUs available,
